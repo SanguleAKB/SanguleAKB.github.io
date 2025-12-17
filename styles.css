@@ -43,7 +43,7 @@ header .container {
 .header-content {
     position: relative;
     /* make room on the right so the absolute image does not overlap text */
-    padding-right: 200px;
+    padding-right: 280px;
 }
 
 .header-text {
@@ -54,15 +54,14 @@ header .container {
     position: absolute;
     right: 20px;
     top: 20px;
-    width: 150px;
-    height: 150px;
+    width: 220px;
+    height: 220px;
 }
 
 .header-image img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 4px solid var(--accent-color);
     box-shadow: 0 6px 20px rgba(93, 173, 226, 0.22);
     object-fit: cover;
 }
